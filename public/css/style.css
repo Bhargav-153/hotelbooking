@@ -1,0 +1,61 @@
+/* navbar */
+.navbar {
+  height: 5rem;
+  background-color: #ffffff;
+}
+.fa-house-user {
+  font-size: 1.5rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: #222222;
+  font-weight: 500;
+}
+.navbar .nav-link {
+  font-size: 1.2rem;
+  color: #222222;
+  font-weight: 400;
+}
+
+/* footer */
+
+.footer {
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: rgb(219, 219, 219);
+}
+.footer .social {
+  text-align: center;
+  color: #222222;
+}
+.footer .social a {
+  font-size: 25px;
+  color: black;
+  border: 2px solid black;
+  width: 40px;
+  height: 42px;
+  line-height: 42px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: 0.3s ease-in-out;
+}
+.footer .social a:hover {
+  box-shadow: 0 0 5px black;
+}
+
+.footer .copyright {
+  margin-top: 9px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #222222;
+}
+.footer .copyright a {
+  color: #222222;
+  font-size: 1.1rem;
+}
