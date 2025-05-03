@@ -1,3 +1,13 @@
+body {
+  font-family: "plus-jakarta-sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
 /* navbar */
 .navbar {
   height: 5rem;
@@ -20,14 +30,15 @@
 /* footer */
 
 .footer {
-  position: relative;
+  /* position: relative; */
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   background: rgb(219, 219, 219);
 }
+
 .footer .social {
   text-align: center;
   color: #222222;
@@ -50,12 +61,79 @@
 }
 
 .footer .copyright {
-  margin-top: 9px;
+  /* margin-top: 1px; */
   text-align: center;
   font-size: 1.1rem;
   color: #222222;
+  margin: 0;
 }
 .footer .copyright a {
   color: #222222;
   font-size: 1.1rem;
+}
+
+/* cards */
+.card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+.card-text {
+  font-weight: 400 !important;
+}
+
+/* .row {
+  margin-bottom: 100px !important;
+} */
+
+.listing-link {
+  text-decoration: none !important;
+}
+
+/* card-effects */
+
+.card-img-overlay {
+  opacity: 0;
+}
+.card-img-overlay:hover {
+  opacity: 0.3;
+  background-color: white;
+}
+
+.add-btn {
+  background-color: rgb(19, 17, 17) !important;
+  color: white !important;
+  border: none !important;
+  width: 100px !important;
+}
+
+/* edit page */
+.edit-btn {
+  background-color: rgb(201, 48, 48) !important;
+  color: white !important;
+  border: none !important;
+  width: 100px !important;
+}
+
+/* show page */
+.show-img {
+  height: 40vh;
+  width: 70% !important;
+}
+.btns {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.show-card {
+  padding-left: 0;
+  padding-right: 0;
 }
